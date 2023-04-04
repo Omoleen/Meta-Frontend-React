@@ -1,24 +1,20 @@
 import logo from './logo.svg';
 import './App.css';
+import {Header} from "./components/Header";
+import {Nav} from "./components/Nav";
+import {Promo} from "./components/Promo";
+import {Card} from './components/Card'
+import {Clickme} from "./components/Clickme";
+import {Child} from "./components/Child";
+import {useState} from "react";
+import {InputComponent} from "./components/InputComponent";
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <div>
+          <Clickme />
+      </div>
   );
 }
 
